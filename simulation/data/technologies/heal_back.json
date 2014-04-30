@@ -1,0 +1,14 @@
+{
+	"pair": "pair_hp_01",	
+	"genericName": "Backlash",
+	"description": "Gives Healers a small attack.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "healing_range.png",
+	"researchTime": 40,
+	"tooltip": "Healers 2 attack.",
+	"modifications": [{"value": "Armour/Hack", "add": 1.0}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

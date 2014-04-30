@@ -1,0 +1,18 @@
+{
+	
+	"genericName": "The Undieing Walls",
+	"description": "Using rubble materials reduces the costs and build times of walls.",
+	"cost": {"food": 1000, "wood": 1000, "stone": 0, "metal": 0},
+	"requirements": {"tech": "MU_01"},
+	"requirementsTooltip": "Unlocked in Following of Mutation way",
+	"icon": "stone_blocks.png",
+	"researchTime": 40,
+	"tooltip": "City walls +%500 build time, but 10 crush armor level.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 5.0},
+		{"value": "Armour/Crush", "add": 10.0}
+	],
+	"supersedes": "Mu_vision_01",
+	"affects": ["StoneWall"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

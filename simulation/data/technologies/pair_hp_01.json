@@ -1,0 +1,5 @@
+{
+	"genericName": "Health vs Attack",
+	"top": "heal_back",
+	"bottom": "heal_hct"
+}

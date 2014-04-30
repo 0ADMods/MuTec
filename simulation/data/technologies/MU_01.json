@@ -1,0 +1,14 @@
+{
+	"genericName": "Following Of Mutation Way",
+	"description": "Allows the research of special technology",
+	"cost": {"food": 1000, "wood": 1000, "stone": 1000, "metal": 1000},
+	"requirements": { "tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase",
+	"icon": "city_phase.png",
+	"researchTime": 100,
+	"tooltip": "Unlocks new Special technologies",
+	"modifications": [{"value": "TerritoryInfluence/Radius", "multiply": 2}],
+	"affects": ["CivCentre"],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}
+

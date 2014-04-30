@@ -1,0 +1,6 @@
+{
+	"genericName": "Health vs Attack #2",
+	"top": "heal_back_2",
+	"bottom": "heal_hct_2",
+    "supersedes": "pair_hp_1"
+}
